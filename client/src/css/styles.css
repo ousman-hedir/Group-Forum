@@ -1,0 +1,278 @@
+.header-top {
+	width: 100%;
+	height: 85px;
+	background-color: white;
+	z-index: 100;
+}
+
+.logo-container {
+	width: 30%;
+}
+
+.offcanvas {
+	width: 70%;
+}
+
+.sign-in {
+	width: 200px;
+	background-color: rgb(79, 100, 255);
+	border-radius: 8px;
+	color: white;
+}
+
+.sign-in:hover {
+	background-color: #fb833d;
+}
+
+.questions {
+	margin-top: 30px;
+}
+
+.body-content {
+	background-image: url("../images/bg-svg-f.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 140px;
+	margin-bottom: 40px;
+}
+
+.login-section {
+	background-color: white;
+	border-radius: 8px;
+	height: auto;
+	min-height: 450px;
+	padding: 20px;
+}
+
+.login-header {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.login-info {
+	text-align: center;
+}
+
+.new-account {
+	padding-left: 5px;
+	color: #fb833d;
+	text-decoration: none;
+}
+
+.orange {
+	color: #fe8402;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.form-input {
+	padding: 10px 15px;
+	width: 100%;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.form-input:focus {
+	outline: none;
+	border-bottom: 2px solid #fb833d;
+}
+
+.login-button {
+	width: 100%;
+	background-color: rgb(79, 100, 255);
+	color: white;
+	margin-top: 35px;
+	border-radius: 8px;
+	height: 35px;
+	border: none;
+}
+
+.login-button:hover {
+	background-color: #fb833d;
+}
+
+.reset-password a {
+	color: #fb833d;
+	text-decoration: none;
+	text-align: right;
+	margin-top: 15px;
+	display: block;
+}
+
+.about-content {
+	padding-top: 10px;
+}
+
+.about-title {
+	color: #fb833d;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.evangadi-title {
+	margin-top: 15px;
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+}
+
+.how-it-works-btn {
+	color: white;
+	background-color: #fb833d;
+	border-radius: 8px;
+	border: none;
+	height: 35px;
+	padding: 5px 15px;
+}
+
+.footer {
+	background-color: rgb(59, 69, 90);
+	padding: 60px 10px;
+}
+
+.social {
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 45px;
+	height: 45px;
+	border: 1px solid white;
+	margin: 20px 12px;
+	transition: all 0.5s ease 0s;
+}
+.social:hover {
+	background-color: white;
+	transition-duration: 0ms;
+}
+
+.social svg {
+	color: white;
+	font-size: 2rem;
+}
+
+.social svg:hover {
+	color: rgb(59, 69, 90);
+	font-size: 2rem;
+	background-color: white;
+	transition-duration: 0ms;
+}
+
+.footer-links h5 {
+	color: white;
+}
+
+.footer-link-row {
+	list-style-type: none;
+}
+
+.footer-link-row li a {
+	color: rgb(147, 154, 156);
+	transition: all 0.5s ease 0s;
+	text-decoration: none;
+	margin-left: -30px;
+}
+
+.footer-link-row li a:hover {
+	color: white;
+	transition: all 0.5s ease 0s;
+	text-decoration: underline;
+	margin-left: -30px;
+}
+
+.footer-info-row {
+	margin-left: -30px;
+	text-decoration: none;
+	list-style-type: none;
+	color: rgb(147, 154, 156);
+}
+
+.mainHomeWrapper {
+	background-color: #f5f5f5;
+	background-image: url("https://www.evangadi.com/themes/humans/assets/images/misc/bg-svg-f.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-top: 20px;
+}
+
+.eye-button {
+	display: flex;
+	justify-content: flex-end;
+	opacity: 0.65;
+	cursor: pointer;
+	margin-top: 15px;
+	border: none;
+
+	svg {
+		margin-top: 15px;
+	}
+}
+
+.password-input-container {
+	display: flex;
+	width: 100%;
+	margin-bottom: 10px;
+
+	input {
+		margin-right: -30px;
+	}
+}
+.already {
+	margin-top: 20px;
+}
+
+.extended-input {
+	width: 100%;
+}
+.input-extend {
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	height: 40px;
+	border: solid 1px #dee2e6;
+	padding: 10px 15px;
+}
+
+.extended-input:focus {
+	outline: none;
+	border: solid 1px #dee2e6;
+	border-bottom: 2px solid #fb833d;
+}
+
+.half-input {
+	width: 47%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	height: 40px;
+	border: solid 1px #dee2e6;
+	padding: 10px 15px;
+}
+
+.first-name {
+	margin-right: 6%;
+}
+
+.agree-and-join {
+	width: 100%;
+	background-color: rgb(79, 100, 255);
+	color: white;
+	border: none;
+	height: 35px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.agree-and-join:hover {
+	background-color: #fb833d;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+.red {
+	color: red;
+	font-size: small;
+}
